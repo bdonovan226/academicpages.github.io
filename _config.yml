@@ -354,8 +354,7 @@ plugins:
 
 # Add this line under "minimal_mistakes_skin" or wherever the stylesheets are defined
 minimal_mistakes_skin: "default"
-include:
-  - assets/css/custom.css
+
 
 
 
