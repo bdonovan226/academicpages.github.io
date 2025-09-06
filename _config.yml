@@ -348,6 +348,16 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+# Near the bottom of _config.yml
+plugins:
+  - jekyll-include-cache
+
+# Add this line under "minimal_mistakes_skin" or wherever the stylesheets are defined
+minimal_mistakes_skin: "default"
+include:
+  - assets/css/custom.css
+
+
 
 # HTML Compression
 # - http://jch.penibelst.de/
